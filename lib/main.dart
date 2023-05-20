@@ -10,13 +10,13 @@ import 'package:firebase_core/firebase_core.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   if (kIsWeb){
-    <! --- await Firebase.initializeApp(
+    <!---await Firebase.initializeApp(
       options: const FirebaseOptions(apiKey:" AIzaSyDEkfDWW_HVq0rPERC0PoE1i2Ul3bk-nSA",
           appId: "1:381153026837:web:7b905dab7c5415ded23f1c",
           messagingSenderId: "381153026837",
           projectId: "instagram-clone-ac4c4",
         storageBucket: "instagram-clone-ac4c4.appspot.com"
-      ),-- >
+      ),-->
     );
   }else
   {
