@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>381153026837-jgougige68tik9iu4f1nsom2hsh2n04d.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.381153026837-jgougige68tik9iu4f1nsom2hsh2n04d</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD3ACWTVxkAqBAJaxvOMVd3Vj4jN-Bg050</string>
+	<key>GCM_SENDER_ID</key>
+	<string>381153026837</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.instagramClone</string>
+	<key>PROJECT_ID</key>
+	<string>instagram-clone-ac4c4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>instagram-clone-ac4c4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:381153026837:ios:a432a0c2978eeb9cd23f1c</string>
+</dict>
+</plist>
