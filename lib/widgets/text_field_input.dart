@@ -3,10 +3,11 @@ import 'package:instagram_clone/colors.dart';
 
 class TextFieldInput extends StatelessWidget {
   final TextEditingController controller;
+  final TextInputType textInputType;
   final String hintText;
   final bool isPass;
 
-  const TextFieldInput({Key? key, required this.controller, required this.hintText,required this.isPass}) : super(key: key);
+  const TextFieldInput({Key? key, required this.controller, required this.hintText, this.isPass=false,required this.textInputType}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +23,7 @@ class TextFieldInput extends StatelessWidget {
         enabledBorder: inputBorder,
         contentPadding: const EdgeInsets.all(8),
       ),
-      keyboardType: ,
+      keyboardType: textInputType,
       obscureText: isPass,
     );
   }

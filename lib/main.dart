@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:instagram_clone/screens/login_screen.dart';
+import 'package:instagram_clone/screens/signup_screen.dart';
 import 'colors.dart';
 import 'responsive/responsive_layout.dart';
 import 'responsive/mobile_screen_layout.dart';
@@ -10,13 +11,13 @@ import 'package:firebase_core/firebase_core.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   if (kIsWeb){
-    <!await Firebase.initializeApp(
+    await Firebase.initializeApp(
       options: const FirebaseOptions(apiKey:" ",
           appId: "",
           messagingSenderId: "",
           projectId: "",
         storageBucket: ""
-      ),>
+      ),
     );
   }else
   {
